@@ -1,0 +1,5 @@
+2025/08/23-11:27:12.595 6421 Reusing MANIFEST /home/goddess/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/08/23-11:27:12.613 6421 Recovering log #44
+2025/08/23-11:27:12.613 6421 Reusing old log /home/goddess/.config/vesktop/sessionData/Local Storage/leveldb/000044.log 
+2025/08/23-11:27:31.611 6687 Level-0 table #48: started
+2025/08/23-11:27:31.617 6687 Level-0 table #48: 35934 bytes OK

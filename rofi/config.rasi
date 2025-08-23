@@ -1,0 +1,62 @@
+configuration {
+    modes: [combi];
+    combi-modes: [window, drun, run];
+}
+
+* {
+    foreground: #ffffff;
+    backlight: transparent;
+    transparent-background: rgba(0,9,7,0.7);
+    background-color: transparent;
+    selected: #66a29b;
+    
+    font: "Source Code Pro 15";
+    transparent: #02050444;
+}
+
+window {
+    background-color: @transparent-background;
+    transparency: "real";
+    padding: 18;
+    border: 0;
+}
+
+mainbox {
+    background-color: transparent;
+    transparency: "real";
+}
+
+entry {
+    background-color: transparent;
+    transparency: "real";
+    placeholder: "...";
+}
+
+element-text {
+    background-color: transparent;
+    transparency: "real";
+    color: #ffffff;
+}
+
+element {
+    background-color: transparent;
+    transparency: "real";
+    children: [element-text];
+    text-color: #ffffff;
+}
+
+element.selected.normal {
+    background-color: @selected;
+}
+
+element.normal.normal {
+    background-color: transparent;
+    transparency: "real";
+    children: [element-text];
+    text-color: #ffffff;
+}
+
+element.alternate.normal {
+    background-color: transparent;
+    transparency: "real";
+}

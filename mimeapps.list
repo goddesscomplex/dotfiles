@@ -1,0 +1,6 @@
+[Default Applications]
+text/plain=Alacritty.desktop
+x-scheme-handler/discord=vesktop.desktop
+
+[Added Associations]
+text/plain=Alacritty.desktop;

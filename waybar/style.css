@@ -1,0 +1,36 @@
+* {
+    border: none;
+    font-family: "Source Code Pro";
+    font-size: 15px;
+}
+
+window#waybar {
+    background-color: rgba(0,9,7,0.7);
+}
+
+#workspaces button {
+    color: #aaaaaa;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background: #66a29b;
+}
+
+.modules-right:last-child {
+
+    margin: 0 10px 0 0;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#cpu, #memory, #pulseaudio {
+    padding: 0 3px;
+    margin: 0 2px;
+}
+
+#pulseaudio {
+    padding: 5px;
+}

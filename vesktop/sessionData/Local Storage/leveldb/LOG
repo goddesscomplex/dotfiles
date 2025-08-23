@@ -1,0 +1,20 @@
+2025/08/23-11:50:19.558 52ef Reusing MANIFEST /home/goddess/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/08/23-11:50:19.580 52ef Recovering log #44
+2025/08/23-11:50:19.582 52ef Level-0 table #47: started
+2025/08/23-11:50:19.586 52ef Level-0 table #47: 35934 bytes OK
+2025/08/23-11:50:19.586 52ef Recovering log #47
+2025/08/23-11:50:19.587 52ef Reusing old log /home/goddess/.config/vesktop/sessionData/Local Storage/leveldb/000047.log 
+2025/08/23-11:50:19.591 52ef Delete type=2 #48
+2025/08/23-11:50:19.591 52ef Delete type=0 #44
+2025/08/23-11:53:50.864 52f0 Level-0 table #49: started
+2025/08/23-11:53:50.870 52f0 Level-0 table #49: 54314 bytes OK
+2025/08/23-11:53:50.872 52f0 Delete type=0 #47
+2025/08/23-11:53:50.872 52f0 Compacting 4@0 + 1@1 files
+2025/08/23-11:53:50.874 52f0 Generated table #50@0: 207 keys, 39884 bytes
+2025/08/23-11:53:50.874 52f0 Compacted 4@0 + 1@1 files => 39884 bytes
+2025/08/23-11:53:50.876 52f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/23-11:53:50.876 52f0 Delete type=2 #45
+2025/08/23-11:53:50.876 52f0 Delete type=2 #39
+2025/08/23-11:53:50.876 52f0 Delete type=2 #49
+2025/08/23-11:53:50.876 52f0 Delete type=2 #42
+2025/08/23-11:53:50.876 52f0 Delete type=2 #47
