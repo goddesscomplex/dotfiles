@@ -35,10 +35,10 @@ workspace 1 output $out-main
 workspace 2 output $out-main
 workspace 3 output $out-main
 workspace 4 output $out-main
-workspace 5 output $out-second
+workspace 5 output $out-main
 workspace 6 output $out-second
-workspace 7 output $out-main
-workspace 8 output $out-main
+workspace 7 output $out-second
+workspace 8 output $out-second
 workspace 9 output $out-second
 workspace 0 output $out-second
 
@@ -160,6 +160,11 @@ client.unfocused $inactive $inactive $inactive $inactive $inactive
     bindsym $mod+8 workspace number 8
     bindsym $mod+9 workspace number 9
     bindsym $mod+0 workspace number 10
+
+    # Mouse shortcuts for second monitor workspaces
+    bindsym --whole-window $mod+button8 workspace number 6
+    bindsym --whole-window $mod+button9 workspace number 7
+
     # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace number 1
     bindsym $mod+Shift+2 move container to workspace number 2
@@ -171,8 +176,10 @@ client.unfocused $inactive $inactive $inactive $inactive $inactive
     bindsym $mod+Shift+8 move container to workspace number 8
     bindsym $mod+Shift+9 move container to workspace number 9
     bindsym $mod+Shift+0 move container to workspace number 10
-    # Note: workspaces can have any name you want, not just numbers.
-    # We just use 1-10 as the default.
+    
+    # Mouse shortcuts for moving windows to second monitor workspaces
+    bindsym --whole-window $mod+Shift+button8 move container to workspace number 6
+    bindsym --whole-window $mod+shift+button9 move container to workspace number 7
 #
 # Layout stuff:
 #
