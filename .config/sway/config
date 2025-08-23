@@ -287,6 +287,9 @@ bar {
 # Eye Candy:
 #
 
+# Load last pywal color scheme
+exec wal -R
+
 blur enable
 #blur_xray enable
 corner_radius 5

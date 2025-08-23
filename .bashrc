@@ -11,4 +11,5 @@ PS1='[\u@\h \W]\$ '
 
 export PATH="$PATH:$HOME/.local/bin"
 
+(cat ~/.cache/wal/sequences &)
 fastfetch --logo ~/Downloads/goddess-downscaled.png --logo-type kitty-direct --logo-width 40 --logo-height 26
