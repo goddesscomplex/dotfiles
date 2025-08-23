@@ -28,8 +28,7 @@ set $out-second HDMI-A-2
 output $out-main mode 2560x1440@144hz adaptive_sync on pos 0 0
 output $out-second mode 1920x1080@60hz adaptive_sync off pos 2560 650
 
-output $out-main bg ~/Downloads/nebula.png fill
-output $out-second bg ~/Downloads/nebula.png fill
+output * bg ~/.config/images/nebula.png fill
 
 # Set workspaces to defined monitors
 workspace 1 output $out-main
