@@ -14,7 +14,8 @@ window#waybar {
 
 #workspaces button.focused {
     color: #ffffff;
-    background: #66a29b;
+    /*background: #66a29b;*/
+    background: #9d9dee;
 }
 
 .modules-right:last-child {

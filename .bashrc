@@ -7,8 +7,9 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1="\[$(tput setaf 147)\]\u\[$(tput setaf 145)\]@\[$(tput setaf 147)\]\h \[$(tput setaf 74)\]\w \[$(tput sgr0)\]$ "
+export PS1="\[\e[01;38;2;157;157;238m\]\u\[\e[01;38;2;105;155;204m\]@\[\e[01;38;2;157;157;238m\]\h \[\e[01;38;2;105;155;204;15m\]\w \[\033[01;0m\]$ "
 alias vim='nvim'
+alias clear='clear && bash'
 
 export PATH="$PATH:$HOME/.local/bin"
 
