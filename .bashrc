@@ -9,6 +9,8 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias vim='nvim'
+
 export PATH="$PATH:$HOME/.local/bin"
 
 (cat ~/.cache/wal/sequences &)
