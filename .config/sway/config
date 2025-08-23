@@ -190,7 +190,7 @@ client.unfocused $inactive $inactive $inactive $inactive $inactive
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
-    bindsym $mod+s layout stacking
+    #bindsym $mod+s layout stacking
     bindsym $mod+w layout tabbed
     bindsym $mod+e layout toggle split
 
@@ -249,6 +249,9 @@ bindsym $mod+r mode "resize"
     
     # Special key to take a screenshot with grim
     bindsym Print exec grim
+
+    # Shortcut to take custom screengrab with slurp
+    bindsym $mod+s exec slurp
     
     # Switch audio devices
     # mod+numpad1 for speakers
@@ -305,6 +308,8 @@ shadows enable
 layer_effects "waybar" blur enable; shadows enable; corner_radius 5;
 layer_effects "gtk-layer-shell" blur enable; shadows enable;
 layer_effects "rofi" blur enable; shadows enable; corner_radius 5;
+layer_effects "nvim" blur enable; shadows enable; corner_radius 5;
+
 
 #
 # Startup Scripts:
