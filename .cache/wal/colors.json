@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/goddess/.config/images/goddess-purple.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#040705",
+        "foreground": "#dee0f6",
+        "cursor": "#dee0f6"
+    },
+    "colors": {
+        "color0": "#040705",
+        "color1": "#659B9B",
+        "color2": "#699BCC",
+        "color3": "#A2B7CE",
+        "color4": "#9D9DEE",
+        "color5": "#B2ABFD",
+        "color6": "#C5B2FE",
+        "color7": "#dee0f6",
+        "color8": "#9b9cac",
+        "color9": "#659B9B",
+        "color10": "#699BCC",
+        "color11": "#A2B7CE",
+        "color12": "#9D9DEE",
+        "color13": "#B2ABFD",
+        "color14": "#C5B2FE",
+        "color15": "#dee0f6"
+    }
+}

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/goddess/.config/images/goddess-purple.png"
+let background = "#040705"
+let foreground = "#dee0f6"
+let cursor     = "#dee0f6"
+
+" Colors
+let color0  = "#040705"
+let color1  = "#659B9B"
+let color2  = "#699BCC"
+let color3  = "#A2B7CE"
+let color4  = "#9D9DEE"
+let color5  = "#B2ABFD"
+let color6  = "#C5B2FE"
+let color7  = "#dee0f6"
+let color8  = "#9b9cac"
+let color9  = "#659B9B"
+let color10 = "#699BCC"
+let color11 = "#A2B7CE"
+let color12 = "#9D9DEE"
+let color13 = "#B2ABFD"
+let color14 = "#C5B2FE"
+let color15 = "#dee0f6"

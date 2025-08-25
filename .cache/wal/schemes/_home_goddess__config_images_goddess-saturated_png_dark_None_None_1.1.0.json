@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/goddess/.config/images/goddess-saturated.png",
+    "alpha": "100",
+    "special": {
+        "background": "#060604",
+        "foreground": "#c0d8d1",
+        "cursor": "#c0d8d1"
+    },
+    "colors": {
+        "color0": "#060604",
+        "color1": "#8CA16C",
+        "color2": "#5DAA9C",
+        "color3": "#3DC1CD",
+        "color4": "#59D5DC",
+        "color5": "#4CD7F1",
+        "color6": "#71F5F9",
+        "color7": "#c0d8d1",
+        "color8": "#869792",
+        "color9": "#8CA16C",
+        "color10": "#5DAA9C",
+        "color11": "#3DC1CD",
+        "color12": "#59D5DC",
+        "color13": "#4CD7F1",
+        "color14": "#71F5F9",
+        "color15": "#c0d8d1"
+    }
+}

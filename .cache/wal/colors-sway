@@ -1,0 +1,21 @@
+set $wallpaper /home/goddess/.config/images/goddess-purple.png
+
+set $background #040705
+set $foreground #dee0f6
+
+set $color0 #040705
+set $color1 #659B9B
+set $color2 #699BCC
+set $color3 #A2B7CE
+set $color4 #9D9DEE
+set $color5 #B2ABFD
+set $color6 #C5B2FE
+set $color7 #dee0f6
+set $color8 #9b9cac
+set $color9 #659B9B
+set $color10 #699BCC
+set $color11 #A2B7CE
+set $color12 #9D9DEE
+set $color13 #B2ABFD
+set $color14 #C5B2FE
+set $color15 #dee0f6
